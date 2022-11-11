@@ -15,7 +15,10 @@ class Musicians {
     var instrument : String
     
     // Initiliazer (Constructor) etmek için
-    init(){
+    init(nameInit:String,ageInit:Int,instrumentInit:String){
+        name = nameInit
+        age = ageInit
+        instrument = instrumentInit
         
     }
 }

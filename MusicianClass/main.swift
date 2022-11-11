@@ -7,13 +7,11 @@
 
 import Foundation
 
-let james = Musicians() //Bu james'in Musicians sınıfına ait bir obje olduğu anlamına gelir.
+let james = Musicians(nameInit: "James", ageInit: 50, instrumentInit: "Guitar") //Bu james'in Musicians sınıfına ait bir obje olduğu anlamına gelir. Init ettikten sonra propertiesler direk eklendi
 
-james.age = 50 // . koyduktan sonra çıkan age, name gibi özellikler propertiesdir.
-james.name = "James Hetfield"
-james.instrument = "Guitar"
+print(james.age)
 
-print(james.name)
+
 
 
 
