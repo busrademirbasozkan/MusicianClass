@@ -35,4 +35,9 @@ class Musicians {
     func sing(){
         print("nothing else matter")
     }
+    
+    // Sadece bu sınıf içinde geçerli fonksiyonlar
+    private func test(){
+        print("test")
+    }
 }
