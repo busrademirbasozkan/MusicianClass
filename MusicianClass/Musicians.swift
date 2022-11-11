@@ -10,7 +10,12 @@ import Foundation
 class Musicians {
     
     // Classın properties leri
-    var name = ""
-    var age = 0
-    var instrument = ""
+    var name : String
+    var age : Int
+    var instrument : String
+    
+    // Initiliazer (Constructor) etmek için
+    init(){
+        
+    }
 }
