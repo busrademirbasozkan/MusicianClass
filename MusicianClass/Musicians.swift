@@ -30,6 +30,9 @@ class Musicians {
         age = ageInit
         instrument = instrumentInit
         type = typeInit
-        
+    }
+    
+    func sing(){
+        print("nothing else matter")
     }
 }

@@ -13,6 +13,10 @@ print(james.age)
 print(james.type)
 
 
+let kirk = SuperMusician(nameInit: "Kirk", ageInit: 55, instrumentInit: "Guitar", typeInit: .LeadGuitar)
+kirk.sing()
+kirk.sing2()
+
 
 
 
